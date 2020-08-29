@@ -7,6 +7,6 @@ public class review {
         System.out.println("Digite o seu nome:");
 
         String name = meuScanner.nextLine();
-        System.out.println("Seu nome ehhhhhhhhhhhhh: " + name);
+        System.out.println("Seu nome ehhhhhh: " + name);
     }
 }

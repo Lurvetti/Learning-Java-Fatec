@@ -1,5 +1,2 @@
-src/*.class
 */*.class
 /.vscode
-
-/aula2
