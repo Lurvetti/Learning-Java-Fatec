@@ -1,5 +1,5 @@
 src/*.class
-aula_2/*.class
+*/*.class
 /.vscode
 
 /aula2
