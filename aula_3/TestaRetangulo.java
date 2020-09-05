@@ -20,7 +20,7 @@ public class TestaRetangulo {
             retangulos[i].base = i * 2 + 5;
             retangulos[i].altura = i * 1.5 + 2;
             retangulos[i].cor = "cor" + i;
-            retangulos[i].imprimirDados();  
+            retangulos[i].imprimirDados();
         }
     }
 }
