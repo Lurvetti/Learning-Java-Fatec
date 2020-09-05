@@ -1,4 +1,4 @@
-public class TestaRetangulo {
+public class RetanguloApp {
     public static void main(String[] args) {
         Retangulo ret01 = new Retangulo();
         Retangulo ret02 = new Retangulo();
