@@ -25,4 +25,5 @@ Representação gráfica de uma classe pode ser feita pela **UML**.
 |depositar(valor)   | - método
 |retirar(valor)     | - método
 
-Os **objetos** gerados a partir de uma classe não são iguais. No instante em que um objeto é instanciado, é reservado um espaço de memória para ele.
+Os **objetos** gerados a partir de uma classe não são iguais. 
+No instante em que um objeto é instanciado, é reservado um espaço de memória para ele.
