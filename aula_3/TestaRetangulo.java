@@ -11,7 +11,16 @@ public class TestaRetangulo {
         ret02.base = 30;
         ret02.cor = "Amarelo";
         
-        ret01.imprimirDados();
-        ret02.imprimirDados();
+        //ret01.imprimirDados();
+        //ret02.imprimirDados();
+
+        Retangulo[] retangulos = new Retangulo[4];
+        for (int i = 0; i<retangulos.length; i++){
+            retangulos[i] = new Retangulo();
+            retangulos[i].base = i * 2 + 5;
+            retangulos[i].altura = i * 1.5 + 2;
+            retangulos[i].cor = "cor" + i;
+            retangulos[i].imprimirDados();  
+        }
     }
 }

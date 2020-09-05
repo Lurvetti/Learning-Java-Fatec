@@ -16,9 +16,9 @@ public class Retangulo {
 
     public void imprimirDados(){
         System.out.println();
-        System.out.println(base);
-        System.out.println(altura);
-        System.out.println(cor);
+        System.out.println("Base: " + base);
+        System.out.println("Altura: " + altura);
+        System.out.println("Cor: " + cor);
         System.out.println("Area: " + calcularArea());
         System.out.println("Perimetro: " + calcularPerimetro());
     }
