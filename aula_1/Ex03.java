@@ -18,7 +18,7 @@ public class Ex03 {
         d2 = 5.99;
         d3 = d1 + d2;
         System.out.println("Soma double - " + d3);
-        //3d - floats are more precise
+        //3d - floats are more preciseP
         float f1, f2, f3;
         f1 = 3.4f;
         f2 = 5.99f;
