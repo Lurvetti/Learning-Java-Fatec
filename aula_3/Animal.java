@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Animal{
     String nome, classe, familia;
     int idade;
@@ -44,12 +43,13 @@ public class Animal{
     }
 
     public void status(){
-        System.out.println("Nome" + nome);
-        System.out.println("Classe" + classe);
-        System.out.println("Familia" + familia);
-        System.out.println("estado" + estado);
-        System.out.println("forca" + forca);
-        System.out.println("caloria" + caloria);
+        System.out.println("\n\nSTATUS");
+        System.out.println("Nome - " + nome);
+        System.out.println("Classe - " + classe);
+        System.out.println("Familia - " + familia);
+        System.out.println("estado - " + estado);
+        System.out.println("forca - " + forca);
+        System.out.println("caloria - " + caloria);
     }
 
 }

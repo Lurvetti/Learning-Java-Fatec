@@ -1,5 +1,5 @@
 public class AnimalApp {
-    public static void main(String[] args[]){
+    public static void main(String[] args){
         Animal pat  = new Animal();
         
         pat.nascer();
