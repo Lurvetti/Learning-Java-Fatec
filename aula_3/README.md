@@ -3,6 +3,7 @@
 ## Conceitos Gerais
 
 ### Classes
+
 Abstração de entidades do mundo read e definem um tipo de  objeto
 e suas características (**atributos**) e as ações que o objeto pode
 realizar (**métodos**).
@@ -14,16 +15,18 @@ estão ativos na memória.
 
 As **classes são declarações de objetos**.
 
- * especificam estrutura e comportamento de objeto
- * como "moldes" para criação de novos objetos
+* especificam estrutura e comportamento de objeto
+* como "moldes" para criação de novos objetos
 
 Representação gráfica de uma classe pode ser feita pela **UML**.
 
 | Carteira          |
 |:----------:       |
-|Saldo              | - atributo
-|depositar(valor)   | - método
-|retirar(valor)     | - método
+|**saldo**              | - atributo
+|depositarValor(valor)   | - método
+|retirarValor(valor)     | - método
 
-Os **objetos** gerados a partir de uma classe não são iguais. 
+Nesse caso, Carteira é a classe, **saldo** é um atributo e **depositarValor()** e **retirarValor()** são métodos.
+
+Os **objetos** gerados a partir de uma classe não são iguais.
 No instante em que um objeto é instanciado, é reservado um espaço de memória para ele.
