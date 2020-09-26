@@ -3,11 +3,11 @@ import java.time.LocalDate;
 
 public class Controle {
 
-    static DespesaPessoal despesas;
-    static int dia, mes, ano;
-    static String itemDespesa;
-    static double valor;
-    static String cpf;
+    protected static DespesaPessoal despesas;
+    protected static int dia, mes, ano;
+    protected static String itemDespesa;
+    protected static double valor;
+    protected static String cpf;
     public static void main(String[] args){
         cpf = JOptionPane.showInputDialog("Cpf: ");
         despesas = new DespesaPessoal(cpf);
@@ -18,7 +18,7 @@ public class Controle {
         String opcao = "";
         do{
             opcao = JOptionPane.showInputDialog(
-                "1 - Lançamneto de Despesa\n" +
+                "1 - Lançamento de Despesa\n" +
                 "2 - Total geral de despesas\n" +
                 "3 - Total de despesas mês/ano\n" +
                 "4 - Total de despesas dia/mês/ano\n" +
@@ -45,7 +45,7 @@ public class Controle {
                     entradaMes();
                     entradaAno();
                     JOptionPane.showMessageDialog(null,"Total de Despesas: "+dia+"/"+mes+"/"+ano+" = "+
-                        despesas.getTotal(LocalDate.of(ano, mes,dia)));
+                        despesas.getTotal(LocalDate.of(ano,mes,dia)));
                 break;
                 case "5":
                     despesas.imprime();
@@ -59,7 +59,7 @@ public class Controle {
                     entradaDia();
                     entradaMes();
                     entradaAno();
-                    despesas.imprime(ano, mes, dia);
+                    despesas.imprime(LocalDate.of(ano,mes,dia));
                 break;
             }
         }while(!opcao.equals("8"));
