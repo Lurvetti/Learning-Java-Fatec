@@ -4,7 +4,7 @@ public class FornecedorEmpresa extends Fornecedor{
 
 
     public String toString(){
-        return super()
+        return "toString()";
     }
 
     
