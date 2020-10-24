@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-
 public class TesteExcecaoArray{
     public static void main (String[] args){
         String nomes[] = {"Alex", "Pedro", "Maria", "Vanessa", "Caroline"};
